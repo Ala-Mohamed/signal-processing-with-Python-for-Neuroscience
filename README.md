@@ -1,25 +1,26 @@
 # signal-processing-with-Python-for-Neuroscience
 **Course Overview**
-This repository contains materials from the "Signal Processing (Python) for Neuroscience Practical" course. The course focuses on applied knowledge of EEG signal processing, presenting popular algorithms used in neuroscience, with a hands-on approach to learning.
+The "Signal Processing in Python for EEG" course is designed to teach you how to process and analyze electroencephalography (EEG) data using Python. Throughout the repo, you can learn:
 
-**Course Content**
-Practical Notebooks: The course includes short scripts designed for direct application. You can easily copy and use these snippets in your Jupyter notebooks or Python environment.
-Datasets: Several datasets are provided to practice signal processing techniques in a real-world context.
-Important Methods: The course covers various signal processing methods, including noise removal, frequency analysis, and component decomposition, providing both theoretical background and practical scripts.
-Getting Started
-Clone this Repository:
-Code
-git clone https://github.com/Ala-Mohamed/signal-processing-with-Python-for-Neuroscience.git
-cd signal-processing-with-Python-for-Neuroscience
-Install Required Libraries: Ensure you have Python 3.x and install the necessary libraries:
-  pip install numpy pandas scipy mne
-  
-Open Jupyter Notebook or Google Colab: Load the notebooks in this repository to explore the provided scripts and datasets. Follow the instructions within the notebooks for setup and execution.
+-Fundamentals of EEG and signal processing
+-How to load, preprocess, and visualize EEG data
+-Techniques for filtering, artifact removal, and feature extraction
+-Application of machine learning for EEG data analysis
+-Real-world examples and case studies
 
-**Learning Outcomes**
-By completing this course, you will:
--Gain practical skills in EEG signal processing.
--Learn to effectively handle datasets and apply different signal processing techniques.
--Understand the theoretical underpinnings of methods like ICA, EMD, and others relevant to EEG data analysis.
-Course Link
+**Repository Contents**
+This repository includes the following:
+1-Notebooks: Jupyter Notebooks demonstrating the concepts and techniques covered in the course, as well as additional notebooks for:
+  .Visualizing data (3.Visualisation.ipynb)
+  .Implementing band-pass filtering (4.Band_Pass_Filter.ipynb)
+  .Applying smoothing filters (5.Smoothing_filters.ipynb)
+  .Performing frequency analysis (6.Frequency_analysis.ipynb)
+  .Removing muscle artifacts and performing component extraction (7.Remove+muscle+artefacts+and+component+extraction.ipynb)
+  .Implementing real-time band-pass filtering (8.Band-pass+in+real-time.ipynb)
+  .Practical implementation of the techniques (9.Practical_implementation.ipynb)
+2-Data: Sample EEG datasets used throughout the course and in the additional notebooks.
+Scripts: Python scripts for specific signal processing tasks.
+Utilities: Helper functions and modules for common EEG data manipulation 
+
+**Course Link**
 For more information, you can find the course. https://www.udemy.com/course/signal-processing-python-for-eeg/learn/lecture/44457428#overview
